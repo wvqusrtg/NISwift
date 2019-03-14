@@ -1,0 +1,6 @@
+framework module Pods_NISwift {
+  umbrella header "Pods-NISwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -14,6 +14,7 @@
 		591B6F1C223A6AD20021F1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591B6F1A223A6AD20021F1DF /* LaunchScreen.storyboard */; };
 		591B6F27223A6AD20021F1DF /* NISwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B6F26223A6AD20021F1DF /* NISwiftTests.swift */; };
 		591B6F32223A6AD20021F1DF /* NISwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B6F31223A6AD20021F1DF /* NISwiftUITests.swift */; };
+		7FE9D386F1B9DE4C32067A36 /* Pods_NISwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099EF0E8EE78239A8423C84E /* Pods_NISwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		099EF0E8EE78239A8423C84E /* Pods_NISwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NISwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		591B6F0E223A6ACF0021F1DF /* NISwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NISwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		591B6F11223A6ACF0021F1DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		591B6F13223A6ACF0021F1DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		591B6F2D223A6AD20021F1DF /* NISwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NISwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		591B6F31223A6AD20021F1DF /* NISwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NISwiftUITests.swift; sourceTree = "<group>"; };
 		591B6F33223A6AD20021F1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8228945D3EDA2825A4AE4697 /* Pods-NISwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NISwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-NISwift/Pods-NISwift.release.xcconfig"; sourceTree = "<group>"; };
+		8F4A9701439EF9DEE96A2B46 /* Pods-NISwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NISwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NISwift/Pods-NISwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE9D386F1B9DE4C32067A36 /* Pods_NISwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B77EFE92DE410D76EB3716B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F4A9701439EF9DEE96A2B46 /* Pods-NISwift.debug.xcconfig */,
+				8228945D3EDA2825A4AE4697 /* Pods-NISwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		591B6F05223A6ACF0021F1DF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +95,8 @@
 				591B6F25223A6AD20021F1DF /* NISwiftTests */,
 				591B6F30223A6AD20021F1DF /* NISwiftUITests */,
 				591B6F0F223A6ACF0021F1DF /* Products */,
+				1B77EFE92DE410D76EB3716B /* Pods */,
+				668A111C9475BB533BD8CF87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +141,14 @@
 			path = NISwiftUITests;
 			sourceTree = "<group>";
 		};
+		668A111C9475BB533BD8CF87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				099EF0E8EE78239A8423C84E /* Pods_NISwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 591B6F36223A6AD20021F1DF /* Build configuration list for PBXNativeTarget "NISwift" */;
 			buildPhases = (
+				84FE99D462FD01A0666C2CBA /* [CP] Check Pods Manifest.lock */,
 				591B6F0A223A6ACF0021F1DF /* Sources */,
 				591B6F0B223A6ACF0021F1DF /* Frameworks */,
 				591B6F0C223A6ACF0021F1DF /* Resources */,
+				A41ED421A332DD3D6CDA8C2D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +276,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84FE99D462FD01A0666C2CBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NISwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A41ED421A332DD3D6CDA8C2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NISwift/Pods-NISwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NISwift/Pods-NISwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		591B6F0A223A6ACF0021F1DF /* Sources */ = {
@@ -430,8 +495,10 @@
 		};
 		591B6F37223A6AD20021F1DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4A9701439EF9DEE96A2B46 /* Pods-NISwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HV6ZVKXQBS;
 				INFOPLIST_FILE = NISwift/Info.plist;
@@ -442,6 +509,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nixs.NISwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,8 +517,10 @@
 		};
 		591B6F38223A6AD20021F1DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8228945D3EDA2825A4AE4697 /* Pods-NISwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HV6ZVKXQBS;
 				INFOPLIST_FILE = NISwift/Info.plist;
@@ -461,6 +531,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nixs.NISwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
