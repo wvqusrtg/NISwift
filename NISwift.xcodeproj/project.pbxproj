@@ -9,6 +9,24 @@
 /* Begin PBXBuildFile section */
 		59195EFD223F27B7003B6256 /* ExampleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195EFC223F27B7003B6256 /* ExampleProtocol.swift */; };
 		59195EFF223F2826003B6256 /* SimpleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195EFE223F2826003B6256 /* SimpleClass.swift */; };
+		59195F05223F6706003B6256 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F04223F6706003B6256 /* MainTabBarViewController.swift */; };
+		59195F07223F67BE003B6256 /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F06223F67BE003B6256 /* SuperViewController.swift */; };
+		59195F0C223F6887003B6256 /* ThemeManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F0B223F6887003B6256 /* ThemeManagerProtocol.swift */; };
+		59195F0E223F697D003B6256 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F0D223F697D003B6256 /* ThemeManager.swift */; };
+		59195F11223F6A71003B6256 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F10223F6A71003B6256 /* ThemeProtocol.swift */; };
+		59195F13223F6BDA003B6256 /* WhiteTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F12223F6BDA003B6256 /* WhiteTheme.swift */; };
+		59195F15223F6C6C003B6256 /* BlackTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F14223F6C6C003B6256 /* BlackTheme.swift */; };
+		59195F17223F6CC3003B6256 /* GreenTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F16223F6CC3003B6256 /* GreenTheme.swift */; };
+		59195F1A223F6D29003B6256 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F19223F6D29003B6256 /* UIColorExtension.swift */; };
+		59195F1C223F6E3F003B6256 /* RedTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F1B223F6E3F003B6256 /* RedTheme.swift */; };
+		59195F1E223F6E92003B6256 /* BlueTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F1D223F6E92003B6256 /* BlueTheme.swift */; };
+		59195F20223F6EF5003B6256 /* YellowTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F1F223F6EF5003B6256 /* YellowTheme.swift */; };
+		59195F22223F7097003B6256 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F21223F7097003B6256 /* FirstViewController.swift */; };
+		59195F25223F7127003B6256 /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F24223F7127003B6256 /* SubView.swift */; };
+		59195F27223F729B003B6256 /* SuperLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F26223F729B003B6256 /* SuperLabel.swift */; };
+		59195F29223F73E2003B6256 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F28223F73E2003B6256 /* TitleLabel.swift */; };
+		59195F2B223F7478003B6256 /* DetailLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F2A223F7478003B6256 /* DetailLabel.swift */; };
+		59195F2D223F75A4003B6256 /* CellTitleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59195F2C223F75A4003B6256 /* CellTitleType.swift */; };
 		591B6F12223A6ACF0021F1DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B6F11223A6ACF0021F1DF /* AppDelegate.swift */; };
 		591B6F14223A6ACF0021F1DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B6F13223A6ACF0021F1DF /* ViewController.swift */; };
 		591B6F17223A6ACF0021F1DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591B6F15223A6ACF0021F1DF /* Main.storyboard */; };
@@ -22,6 +40,8 @@
 		598DAA81223B917D009CDDCC /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DAA80223B917D009CDDCC /* Circle.swift */; };
 		598DAA83223B9319009CDDCC /* EauilateralTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DAA82223B9319009CDDCC /* EauilateralTriangle.swift */; };
 		598DAA85223B9986009CDDCC /* TriangleAndSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DAA84223B9986009CDDCC /* TriangleAndSquare.swift */; };
+		59A9D8EB223F81BD00F8C46F /* FirstSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9D8EA223F81BD00F8C46F /* FirstSubViewController.swift */; };
+		59A9D8ED223F829A00F8C46F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9D8EC223F829A00F8C46F /* SecondViewController.swift */; };
 		7FE9D386F1B9DE4C32067A36 /* Pods_NISwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099EF0E8EE78239A8423C84E /* Pods_NISwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +66,24 @@
 		099EF0E8EE78239A8423C84E /* Pods_NISwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NISwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59195EFC223F27B7003B6256 /* ExampleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProtocol.swift; sourceTree = "<group>"; };
 		59195EFE223F2826003B6256 /* SimpleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleClass.swift; sourceTree = "<group>"; };
+		59195F04223F6706003B6256 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		59195F06223F67BE003B6256 /* SuperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
+		59195F0B223F6887003B6256 /* ThemeManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManagerProtocol.swift; sourceTree = "<group>"; };
+		59195F0D223F697D003B6256 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		59195F10223F6A71003B6256 /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		59195F12223F6BDA003B6256 /* WhiteTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteTheme.swift; sourceTree = "<group>"; };
+		59195F14223F6C6C003B6256 /* BlackTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackTheme.swift; sourceTree = "<group>"; };
+		59195F16223F6CC3003B6256 /* GreenTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenTheme.swift; sourceTree = "<group>"; };
+		59195F19223F6D29003B6256 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		59195F1B223F6E3F003B6256 /* RedTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedTheme.swift; sourceTree = "<group>"; };
+		59195F1D223F6E92003B6256 /* BlueTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTheme.swift; sourceTree = "<group>"; };
+		59195F1F223F6EF5003B6256 /* YellowTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowTheme.swift; sourceTree = "<group>"; };
+		59195F21223F7097003B6256 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		59195F24223F7127003B6256 /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
+		59195F26223F729B003B6256 /* SuperLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperLabel.swift; sourceTree = "<group>"; };
+		59195F28223F73E2003B6256 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		59195F2A223F7478003B6256 /* DetailLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLabel.swift; sourceTree = "<group>"; };
+		59195F2C223F75A4003B6256 /* CellTitleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTitleType.swift; sourceTree = "<group>"; };
 		591B6F0E223A6ACF0021F1DF /* NISwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NISwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		591B6F11223A6ACF0021F1DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		591B6F13223A6ACF0021F1DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +103,8 @@
 		598DAA80223B917D009CDDCC /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		598DAA82223B9319009CDDCC /* EauilateralTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EauilateralTriangle.swift; sourceTree = "<group>"; };
 		598DAA84223B9986009CDDCC /* TriangleAndSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleAndSquare.swift; sourceTree = "<group>"; };
+		59A9D8EA223F81BD00F8C46F /* FirstSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSubViewController.swift; sourceTree = "<group>"; };
+		59A9D8EC223F829A00F8C46F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8228945D3EDA2825A4AE4697 /* Pods-NISwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NISwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-NISwift/Pods-NISwift.release.xcconfig"; sourceTree = "<group>"; };
 		8F4A9701439EF9DEE96A2B46 /* Pods-NISwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NISwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NISwift/Pods-NISwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +153,49 @@
 			path = protocol;
 			sourceTree = "<group>";
 		};
+		59195F08223F6821003B6256 /* ThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				59195F0B223F6887003B6256 /* ThemeManagerProtocol.swift */,
+				59195F0D223F697D003B6256 /* ThemeManager.swift */,
+			);
+			path = ThemeManager;
+			sourceTree = "<group>";
+		};
+		59195F0F223F6A44003B6256 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				59195F10223F6A71003B6256 /* ThemeProtocol.swift */,
+				59195F12223F6BDA003B6256 /* WhiteTheme.swift */,
+				59195F14223F6C6C003B6256 /* BlackTheme.swift */,
+				59195F16223F6CC3003B6256 /* GreenTheme.swift */,
+				59195F1B223F6E3F003B6256 /* RedTheme.swift */,
+				59195F1F223F6EF5003B6256 /* YellowTheme.swift */,
+				59195F1D223F6E92003B6256 /* BlueTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		59195F18223F6CFC003B6256 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				59195F19223F6D29003B6256 /* UIColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		59195F23223F710B003B6256 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59195F26223F729B003B6256 /* SuperLabel.swift */,
+				59195F28223F73E2003B6256 /* TitleLabel.swift */,
+				59195F2A223F7478003B6256 /* DetailLabel.swift */,
+				59195F24223F7127003B6256 /* SubView.swift */,
+				59195F2C223F75A4003B6256 /* CellTitleType.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		591B6F05223A6ACF0021F1DF = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +222,16 @@
 			isa = PBXGroup;
 			children = (
 				591B6F11223A6ACF0021F1DF /* AppDelegate.swift */,
+				59195F06223F67BE003B6256 /* SuperViewController.swift */,
+				59195F21223F7097003B6256 /* FirstViewController.swift */,
+				59A9D8EA223F81BD00F8C46F /* FirstSubViewController.swift */,
+				59A9D8EC223F829A00F8C46F /* SecondViewController.swift */,
+				59195F04223F6706003B6256 /* MainTabBarViewController.swift */,
 				591B6F13223A6ACF0021F1DF /* ViewController.swift */,
+				59195F23223F710B003B6256 /* View */,
+				59195F18223F6CFC003B6256 /* Extension */,
+				59195F0F223F6A44003B6256 /* Theme */,
+				59195F08223F6821003B6256 /* ThemeManager */,
 				59195EFB223F2799003B6256 /* protocol */,
 				598DAA7F223B8F7C009CDDCC /* Model */,
 				591B6F15223A6ACF0021F1DF /* Main.storyboard */,
@@ -259,6 +351,7 @@
 				TargetAttributes = {
 					591B6F0D223A6ACF0021F1DF = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					591B6F21223A6AD20021F1DF = {
 						CreatedOnToolsVersion = 10.1;
@@ -361,16 +454,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59195F11223F6A71003B6256 /* ThemeProtocol.swift in Sources */,
+				59195F17223F6CC3003B6256 /* GreenTheme.swift in Sources */,
 				598DAA7E223B8ED4009CDDCC /* Square.swift in Sources */,
+				59195F29223F73E2003B6256 /* TitleLabel.swift in Sources */,
 				591B6F14223A6ACF0021F1DF /* ViewController.swift in Sources */,
+				59195F15223F6C6C003B6256 /* BlackTheme.swift in Sources */,
+				59195F0C223F6887003B6256 /* ThemeManagerProtocol.swift in Sources */,
+				59195F27223F729B003B6256 /* SuperLabel.swift in Sources */,
 				598DAA7C223B8B58009CDDCC /* NamedShape.swift in Sources */,
 				598DAA7A223B8A62009CDDCC /* Shape.swift in Sources */,
+				59195F1A223F6D29003B6256 /* UIColorExtension.swift in Sources */,
 				59195EFF223F2826003B6256 /* SimpleClass.swift in Sources */,
 				598DAA85223B9986009CDDCC /* TriangleAndSquare.swift in Sources */,
+				59195F1C223F6E3F003B6256 /* RedTheme.swift in Sources */,
 				59195EFD223F27B7003B6256 /* ExampleProtocol.swift in Sources */,
 				591B6F12223A6ACF0021F1DF /* AppDelegate.swift in Sources */,
+				59195F05223F6706003B6256 /* MainTabBarViewController.swift in Sources */,
 				598DAA83223B9319009CDDCC /* EauilateralTriangle.swift in Sources */,
+				59A9D8ED223F829A00F8C46F /* SecondViewController.swift in Sources */,
+				59195F07223F67BE003B6256 /* SuperViewController.swift in Sources */,
 				598DAA81223B917D009CDDCC /* Circle.swift in Sources */,
+				59195F0E223F697D003B6256 /* ThemeManager.swift in Sources */,
+				59195F13223F6BDA003B6256 /* WhiteTheme.swift in Sources */,
+				59195F1E223F6E92003B6256 /* BlueTheme.swift in Sources */,
+				59195F25223F7127003B6256 /* SubView.swift in Sources */,
+				59A9D8EB223F81BD00F8C46F /* FirstSubViewController.swift in Sources */,
+				59195F20223F6EF5003B6256 /* YellowTheme.swift in Sources */,
+				59195F2B223F7478003B6256 /* DetailLabel.swift in Sources */,
+				59195F2D223F75A4003B6256 /* CellTitleType.swift in Sources */,
+				59195F22223F7097003B6256 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +659,7 @@
 			baseConfigurationReference = 8F4A9701439EF9DEE96A2B46 /* Pods-NISwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HV6ZVKXQBS;
@@ -558,6 +672,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nixs.NISwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -568,6 +684,7 @@
 			baseConfigurationReference = 8228945D3EDA2825A4AE4697 /* Pods-NISwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HV6ZVKXQBS;
@@ -580,6 +697,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nixs.NISwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

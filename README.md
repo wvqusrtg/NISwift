@@ -12,5 +12,10 @@ Swift学习
 
 ##### NISwift Demo_ing
 
+```
+Flowing:2019年03月18日16:34:06
+2.[iOS开发之App主题切换完整解决方案(Swift版) 参考](参考：https://www.cnblogs.com/ludashi/p/6289741.html)
+
 Flowing:2019年03月14日19:55:37
 1.Swift工程初始创建+Snapkit基础使用逻辑和Masnory基本一致,OC控件里的方法在Swift里也基本都一致，swift不用结尾写分号，这个可以留意一下啊！
+```

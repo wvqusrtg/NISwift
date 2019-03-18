@@ -61,15 +61,30 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let btnBasic = UIButton()
+        btnBasic.setTitle("Swift-基础", for: UIControl.State.normal)
+        btnBasic.setTitleColor(UIColor.white, for: UIControl.State.normal)
+        btnBasic.backgroundColor = UIColor.red
+        //btnBasic.addTarget(superclass, action: Selector(jumpToBasicVC()), for: UIControl.Event.touchUpInside)
+        self.view.addSubview(btnBasic)
+        btnBasic.snp.makeConstraints { (make) in
+            make.top.equalTo(view.snp_topMargin)
+            make.left.equalTo(view.snp_leftMargin).offset(10)
+            make.right.equalTo(view.snp_rightMargin).offset(-10)
+            make.height.equalTo(40)
+        }
+        
         // Do any additional setup after loading the view, typically from a nib.
         let testView = UIView()
         testView.backgroundColor = UIColor.cyan
         view.addSubview(testView)
         testView.snp.makeConstraints { (make) in
-            make.width.equalTo(100)//宽100
-            make.height.equalTo(100)//高100
+            //make.width.equalTo(100)//宽100
+            make.width.equalTo(btnBasic)
+            make.height.equalTo(80)//高100
             make.centerX.equalTo(view)
-            make.top.equalTo(view.snp_topMargin)
+            make.top.equalTo(btnBasic.snp_bottomMargin).offset(10)
         }
         //com.nixs.NISwift
         let testLab = UILabel()
@@ -363,6 +378,10 @@ class ViewController: UIViewController {
         
         anyCommonElements([1,2,3], [3])
     }
+    func jumpToBasicVC() -> Void {
+        //var basicVC = BasicVC()
+        //self.presentViewController(vc, animated: true, completion: nil)
+    }
     
     func anyCommonElements<T: Sequence,U: Sequence>(_ lhs: T,_ rhs: U) -> Bool
         where T.Iterator.Element: Equatable, T.Iterator.Element == U.Iterator.Element {
@@ -493,6 +512,5 @@ class ViewController: UIViewController {
     func greet(_ person:String,on day:String) -> String {
         return "Hello \(person),today is \(day)"
     }
-    
-}
+
 
