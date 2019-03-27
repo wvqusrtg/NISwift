@@ -41,7 +41,23 @@ class FirstViewController: SuperViewController {
             make.centerX.equalTo(self.view)
             make.height.equalTo(subViews)
         }
+        
+        let buttonLayout:UIButton = UIButton()
+        buttonLayout.setTitle("简单布局-类比android版本和OC版本", for: .normal)
+        buttonLayout.setTitleColor(UIColor.white, for: .normal)
+        buttonLayout.backgroundColor = UIColor.red
+        buttonLayout.addTarget(self, action: #selector(self.tapButtonLayout(sender:)), for: .touchUpInside)
+        self.view.addSubview(buttonLayout)
+        buttonLayout.snp.makeConstraints { (make) in
+            make.top.equalTo(button.snp_bottomMargin).offset(10)
+            make.left.right.width.height.equalTo(button)
+        }
+        
     }
+    @objc func tapButtonLayout(sender:UIButton) {
+        self.navigationController?.show(SimpleLayoutViewController(), sender: nil)
+    }
+    
     @objc func tapButton(sender: UIButton) {
         self.navigationController?.show(FirstSubViewController(), sender: nil)
     }

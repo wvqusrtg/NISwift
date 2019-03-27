@@ -34,6 +34,7 @@
 		591B6F1C223A6AD20021F1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591B6F1A223A6AD20021F1DF /* LaunchScreen.storyboard */; };
 		591B6F27223A6AD20021F1DF /* NISwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B6F26223A6AD20021F1DF /* NISwiftTests.swift */; };
 		591B6F32223A6AD20021F1DF /* NISwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B6F31223A6AD20021F1DF /* NISwiftUITests.swift */; };
+		596E5FFF224B52A100EC246E /* SimpleLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E5FFE224B52A100EC246E /* SimpleLayoutViewController.swift */; };
 		598DAA7A223B8A62009CDDCC /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DAA79223B8A62009CDDCC /* Shape.swift */; };
 		598DAA7C223B8B58009CDDCC /* NamedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DAA7B223B8B58009CDDCC /* NamedShape.swift */; };
 		598DAA7E223B8ED4009CDDCC /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DAA7D223B8ED4009CDDCC /* Square.swift */; };
@@ -97,6 +98,7 @@
 		591B6F2D223A6AD20021F1DF /* NISwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NISwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		591B6F31223A6AD20021F1DF /* NISwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NISwiftUITests.swift; sourceTree = "<group>"; };
 		591B6F33223A6AD20021F1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		596E5FFE224B52A100EC246E /* SimpleLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLayoutViewController.swift; sourceTree = "<group>"; };
 		598DAA79223B8A62009CDDCC /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		598DAA7B223B8B58009CDDCC /* NamedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedShape.swift; sourceTree = "<group>"; };
 		598DAA7D223B8ED4009CDDCC /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				591B6F11223A6ACF0021F1DF /* AppDelegate.swift */,
 				59195F06223F67BE003B6256 /* SuperViewController.swift */,
 				59195F21223F7097003B6256 /* FirstViewController.swift */,
+				596E5FFE224B52A100EC246E /* SimpleLayoutViewController.swift */,
 				59A9D8EA223F81BD00F8C46F /* FirstSubViewController.swift */,
 				59A9D8EC223F829A00F8C46F /* SecondViewController.swift */,
 				59195F04223F6706003B6256 /* MainTabBarViewController.swift */,
@@ -463,6 +466,7 @@
 				59195F0C223F6887003B6256 /* ThemeManagerProtocol.swift in Sources */,
 				59195F27223F729B003B6256 /* SuperLabel.swift in Sources */,
 				598DAA7C223B8B58009CDDCC /* NamedShape.swift in Sources */,
+				596E5FFF224B52A100EC246E /* SimpleLayoutViewController.swift in Sources */,
 				598DAA7A223B8A62009CDDCC /* Shape.swift in Sources */,
 				59195F1A223F6D29003B6256 /* UIColorExtension.swift in Sources */,
 				59195EFF223F2826003B6256 /* SimpleClass.swift in Sources */,
